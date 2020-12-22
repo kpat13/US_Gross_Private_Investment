@@ -13095,8 +13095,7 @@ div#notebook {
 <h1 id="Motivation">Motivation<a class="anchor-link" href="#Motivation">&#182;</a></h1><p>The total Gross Domestic Product (GDP) for the United States is derived by summing up 4 things namely: Consumption Expenditure, Private Investment, Government Spending, and Net Exports. Consumption Expenditure makes up for about 70% of the GDP, Private Investment makes for about 20%, Govt. Spending makes for 9% and Net Exports about &lt; 1%. <br>
 Now, Private investment is only 20%, but is the most volatile out of the other factors. It means Private Investment changes signinficantly and rapidly whenever there is economic boom or economic downturn. Private Investment basically includes the capital spent by business to purchase assets like machinary, equipments, land etc. More details about terminology can be found <a href="http://www.amosweb.com/cgi-bin/awb_nav.pl?s=wpd&c=dsp&k=investment+expenditures#:~:text=INVESTMENT%20EXPENDITURES%3A,and%20long%2Drun%20economic%20growth.">here.</a> <br> 
 However, traditionally when politicians and economists argue about Private Investment, people are either for or against raising corporate taxes/ tax breaks to big businesses. People who argue that lower taxes on businesses make them invest within U.S. as their corporate income after taxes is higher that way. They argue this also leads to higher employment within the country and other benefits. This type of theory is called Trickle Down Economics. You can read more about it <a href="https://www.investopedia.com/terms/t/trickledowntheory.asp">here.</a><br>
-However, lot of recent publications like <a href="">this one,</a> argue that Trickle Down Effect does not work in reality. So, in this tutorial we make a model using data queried from <a href="https://wrds-www.wharton.upenn.edu/">Wharton Research Data Services (WRDS).</a> Then we test our model against real aggregate variables for the Economy with data from <a href="https://fred.stlouisfed.org/">FRED.</a> This model will take in mulitple independent variable including income after taxes for businesses and predict the cpaital expenditure for a given period. If we have a reasonable model, we will have showed that taxes are not the only varibale to be considered. Hence we will have moved in a direction to disprove 'trickle down economics'</p>
-<p><a href="https://fred.stlouisfed.org/">FRED.</a></p>
+However, lot of recent publications like <a href="https://thestandrewseconomist.com/2020/08/25/us-trickle-economics/#:~:text=Hoover%20thought%20if%20the%20prosperous,growth%20and%20prosperity%20over%2Dtime.">this one,</a> argue that Trickle Down Effect does not work in reality. So, in this tutorial we make a model using data queried from <a href="https://wrds-www.wharton.upenn.edu/">Wharton Research Data Services (WRDS).</a> Then we test our model against real aggregate variables for the Economy with data from <a href="https://fred.stlouisfed.org/">FRED.</a> This model will take in mulitple independent variable including income after taxes for businesses and predict the cpaital expenditure for a given period. If we have a reasonable model, we will have showed that taxes are not the only varibale to be considered. Hence we will have moved in a direction to disprove 'trickle down economics'</p>
 
 </div>
 </div>
@@ -13935,7 +13934,7 @@ The query that I used to get the data in a CSV file with needed variables from W
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fefc0745910&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fdb2e463a00&gt;</pre>
 </div>
 
 </div>
@@ -14161,10 +14160,10 @@ Below is the full summary of our results from the regression analysis using the 
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th> <td>   1034.</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Mon, 21 Dec 2020</td> <th>  Prob (F-statistic):</th> <td>5.15e-56</td>
+  <th>Date:</th>             <td>Tue, 22 Dec 2020</td> <th>  Prob (F-statistic):</th> <td>5.15e-56</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>19:43:27</td>     <th>  Log-Likelihood:    </th> <td> -436.78</td>
+  <th>Time:</th>                 <td>06:15:41</td>     <th>  Log-Likelihood:    </th> <td> -436.78</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    71</td>      <th>  AIC:               </th> <td>   881.6</td>
@@ -14828,7 +14827,7 @@ So, we grab some more data from FRED st. Louis..</p>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7fefe474ae80&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7fdb2d28bbe0&gt;]</pre>
 </div>
 
 </div>
@@ -14889,7 +14888,7 @@ Since the data ranges across 295 fiscal quarters, the x-axis is a bit crowded in
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7fefbc779b80&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7fdb2a4998b0&gt;]</pre>
 </div>
 
 </div>
